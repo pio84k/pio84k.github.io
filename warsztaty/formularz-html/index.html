@@ -10,15 +10,20 @@
     <form method="POST" action="https://formspree.io/pio84k@wp.pl">
         <label for="imie">Imię:</label>
         <input type="text" name="imie"><br>
+
         <label for="nazwisko">Nazwisko:</label>
         <input type="text" name="nazwisko"><br>
+
         <label for="email">Email:</label>
         <input type="email" name="email" placeholder="Twoj email"><br>
+
         <label for="telefon">Numer telefonu:</label>
-        <input type="number" name="telefon"><br>
+        <input type="tel" name="telefon"><br>
+        <!--  label[for=wiadomosc]+textarea#wiadomosc     -->
         <label for="wiadomosc">Wiadomość:</label>
-        <input type="text" name="wiadomosc"><br>
-        <input type="submit" value="Wyslij">
+        <textarea name="wiadomosc" id="wiadomosc"></textarea>><br>
+
+        <input type="submit" value="Wyślij">
     </form>
 </body>
 
