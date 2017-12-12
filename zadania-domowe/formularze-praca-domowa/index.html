@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/pio84k@wp.pl" method="POST">
+        <label for="name">Imię:
+        <input type="text" name="name" id="name"></label><br>
+
+        <label for="surname">Nazwisko:
+        <input type="text" name="surname" id="surname"></label><br>
+
+        <label for="email">Email:
+        <input type="email" name="email" id="email"></label><br>
+
+        <label for="phone">Nr telefonu:
+        <input type="tel" name="phone" id="phone"></label><br>
+
+        <p>Wybierz miasto:</p>
+        <select name="city" id="city">
+             
+             <option value="city-krakow">Kraków</option>
+              <option value="city-warsaw">Warszawa</option>
+              <option value="city-krakow">Gdańsk</option>
+              
+          </select>
+
+        <p>Płeć:</p>
+        <input type="radio" name="gender" id="male" value="m" checked> mężczyzna
+
+        <input type="radio" name="gender" id="female" value="f"> kobieta
+
+        <input type="radio" name="gender" id="other" value="o"> inne <br> <br>
+
+        <input type="checkbox" name="zgoda" id="zgoda"> zgoda na przetwarzanie danych osobowych <br><br>
+
+
+        <textarea name="message" id="message" placeholder="Twoja wiadomość:"></textarea><br><br>
+
+        <input type="submit" value="Wyślij">
+
+    </form>
+
+</body>
+
+</html>
