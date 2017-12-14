@@ -30,13 +30,17 @@
           </select>
 
         <p>Płeć:</p>
-        <input type="radio" name="gender" id="male" value="m" checked> mężczyzna
+        <label for="male">mężczyzna</label>
+        <input type="radio" name="gender" id="male" value="m" checked>
 
-        <input type="radio" name="gender" id="female" value="f"> kobieta
+        <label for="female">kobieta</label>
+        <input type="radio" name="gender" id="female" value="f">
 
-        <input type="radio" name="gender" id="other" value="o"> inne <br> <br>
+        <label for="other">inne</label>
+        <input type="radio" name="gender" id="other" value="o"> <br> <br>
 
-        <input type="checkbox" name="zgoda" id="zgoda"> zgoda na przetwarzanie danych osobowych <br><br>
+        <label for="zgoda">Wyrażam zgodę na prztwarzanie danych osobowych</label>
+        <input type="checkbox" name="zgoda" id="zgoda"><br><br>
 
 
         <textarea name="message" id="message" placeholder="Twoja wiadomość:"></textarea><br><br>
