@@ -65,7 +65,7 @@ h6 {
 
 #main-header .main-header-content {
     padding: 30px;
-    color: white;
+    text-align: center;
 
 }
 
@@ -80,15 +80,12 @@ h6 {
     font-size: 4em;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    text-align: center;
 }
 
 #main-header .main-header-content h2 {
     font-size: 2em;
     font-weight: 200;
-    text-align: center;
 }
-
 
 .main-header-content {
     padding: 30vh%;
@@ -100,7 +97,7 @@ h6 {
 }
 
 #about > figure {
-    width: 50%;
+    max-width: 50%;
     margin: 0;
     float: left;
     text-align: center;
@@ -118,16 +115,21 @@ h6 {
 
 #about h2 {
     text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 60px;
+    margin-bottom: 35px;
 
 }
 
 .about-content {
     width: 50%;
+    padding-left: 20px;
 }
 
 #about > figure > img {
     max-height: 350px;
-    border: 14px #fff solid;
+    border: 14px #291f1a solid;
     border-radius: 15px;
     max-width: 100%;
 }
@@ -135,4 +137,34 @@ h6 {
 section {
     padding: 0 80px 100px;
     width: 100%;
+}
+
+#skills > p {
+    text-align: center
+}
+
+#skills div#skills-icons {
+    text-align: center;
+}
+
+#skills #skills-icons figure {
+    display: inline-block;
+    margin: 30px;
+}
+
+figurgapture {
+    text-align: center;
+}
+
+.contact-social-icons i {
+    font-size: 30px
+}
+
+#contact {
+    background-color: #213b50;
+}
+
+input,
+button {
+    display: block;
 }
