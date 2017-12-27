@@ -13,11 +13,11 @@
     <div class="box">
         <h2>Przykładowy formularz</h2>
         <h3><i>2-formularz-html5-adv</i></h3>
+        <form action="https://formspree.io/pio84k@wp.pl" method="post">
+            <fieldset class="client-info">
+                <legend>Dane klienta</legend>
 
-        <fieldset class="client-info">
-            <legend>Dane klienta</legend>
 
-            <form action="https://formspree.io/pio84k@wp.pl" method="post">
                 <label for="name">Imię:
                  <input type="text" id="name" placeholder="Jan" autofocus required>
                  </label><br>
@@ -30,12 +30,11 @@
                  <input type="email" id="email" placeholder="aaaa@bb.ccc" required>
                  </label><br>
 
-            </form>
-        </fieldset>
+            </fieldset>
 
-        <fieldset class="book">
-            <legend>Książka</legend>
-            <form class="quantity">
+            <fieldset class="book">
+                <legend>Książka</legend>
+
                 <select name="books" id="books" size="1" multiple="multiple">
                     <option value="book1">Pan Tadeusz</option>
                     <option value="book2">Potop</option>
@@ -48,12 +47,12 @@
                 <label for="quantity">Ilość(max 5szt):
                      <input type="number" name="quantity" id="quantity" min="1" max="5">
                      </label>
-            </form>
 
 
-        </fieldset>
-        <input type="submit" value="Wyślij" id="submit">
 
+            </fieldset>
+            <input type="submit" value="Wyślij" id="submit">
+        </form>
     </div>
 
 

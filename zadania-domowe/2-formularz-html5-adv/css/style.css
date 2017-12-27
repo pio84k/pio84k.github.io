@@ -1,6 +1,6 @@
-fieldset.client-info {
+.client-info {
     width: 600px;
-    border: 1px solid #000000;
+    border: 2px solid dimgray;
 }
 
 h3 {
@@ -9,7 +9,7 @@ h3 {
 
 fieldset.book {
     width: 600px;
-    border: 1px solid #000000;
+    border: 2px solid dimgray;
 }
 
 .quantity {
@@ -37,4 +37,6 @@ fieldset.book {
 #email {
     margin: 5px;
     width: 300px;
+
+
 }
