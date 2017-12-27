@@ -1,0 +1,36 @@
+fieldset.client-info {
+    width: 600px;
+    border: 1px solid #000000;
+}
+
+h3 {
+    color: dimgray;
+}
+
+fieldset.book {
+    width: 600px;
+    border: 1px solid #000000;
+}
+
+form.quantity {
+    display: inline;
+    margin: 20px;
+}
+
+#books,
+#quantity {
+    width: 220px;
+    margin: 5px;
+}
+
+#submit {
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#name,
+#telephone,
+#email {
+    margin: 5px;
+    width: 300px;
+}

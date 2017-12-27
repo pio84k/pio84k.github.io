@@ -4,10 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <title>2-formularz-html5-adv</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
+    <form>
+
+        <div class="box">
+            <h2>Przykładowy formularz</h2>
+            <h3><i>2-formularz-html5-adv</i></h3>
+
+            <fieldset class="client-info">
+                <legend>Dane klienta</legend>
+
+                <form action="https://formspree.io/pio84k@wp.pl" method="POST">
+                    <label for="name">Imię:
+                 <input type="text" id="name" placeholder="Jan" autofocus required="requaired">
+                 </label><br>
+
+                    <label for="telephone">Telefon:
+                 <input type="tel" name="telephone" id="telephone" placeholder="601-102-203" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" autofocus required="requaired" >
+                 </label><br>
+
+                    <label for="email">Email:
+                 <input type="emal" id="email" placeholder="aaaa@bb.ccc" autofocus required="requaired">
+                 </label><br>
+
+                </form>
+            </fieldset>
+
+            <fieldset class="book">
+                <legend>Książka</legend>
+                <form class="quantity">
+                    <select name="books" id="books" size="1" multiple="mulitple" autofocus>
+                    <option value="book1">Pan Tadeusz</option>
+                    <option value="book2">Potop</option>
+                    <option value="book3">W pustyni i w puszczy</option>
+                    <option value="book4">Dywizjon 303</option>
+                    <option value="book5">Dziady</option>
+                </select>
+
+
+                    <label for="quantity">Ilość (max 5szt):
+                     <input type="number" name="quantity" id="quantity" min="1" max="5" autofocus>
+                     </label>
+                </form>
+
+
+            </fieldset>
+            <input type="submit" value="Wyślij" id="submit">
+
+
+
+        </div>
+    </form>
 
 
 </body>
