@@ -12,15 +12,19 @@ fieldset.book {
     border: 1px solid #000000;
 }
 
-form.quantity {
+.quantity {
     display: inline;
-    margin: 20px;
+    margin: 5px;
 }
 
-#books,
+#books {
+    width: 200px;
+    margin-right: 15px;
+}
+
 #quantity {
-    width: 220px;
-    margin: 5px;
+    width: 200px;
+
 }
 
 #submit {
