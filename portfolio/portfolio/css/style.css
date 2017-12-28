@@ -21,6 +21,10 @@ h6 {
     text-align: center;
 }
 
+h1 {
+    color: brown;
+}
+
 #main-nav {
     position: fixed;
     width: 100%;
@@ -58,9 +62,8 @@ h6 {
 #main-header {
     background-size: cover;
     background-position: center;
-    background-image: url(/img/header-background.jpg);
+    background-image: url(/portfolio/img/header-background.jpg);
     background-repeat: no-repeat;
-    color: #fff;
 }
 
 #main-header .main-header-content {
