@@ -1,0 +1,29 @@
+@media screen and (max-width: 1170px) and (min-width: 992px) {
+    body {
+        background-color: beige;
+    }
+    #picture {
+        background-image: url(/img/man-2.jpg);
+        height: 70%;
+    }
+    h2 {
+        left: 55%;
+        top: 20%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        background-color: beige;
+    }
+    #picture {
+        height: 50%;
+        background-position: center;
+        min-width: 480px
+    }
+    h2 {
+        color: black;
+        top: 320px;
+        text-align: center;
+    }
+}
