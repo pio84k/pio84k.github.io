@@ -5,6 +5,7 @@
     #picture {
         background-image: url(/img/man-2.jpg);
         height: 70%;
+        width: 100%;
     }
     h2 {
         left: 55%;
