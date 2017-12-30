@@ -4,37 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <title>2-formularz-html5-adv</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
-
     <div class="box">
         <h2>Przykładowy formularz</h2>
         <h3><i>2-formularz-html5-adv</i></h3>
-        <form action="https://formspree.io/pio84k@wp.pl" method="post">
+        <form action="https://formspree.io/pio84k@wp.pl" method="post" autocomplete="on">
             <fieldset class="client-info">
                 <legend>Dane klienta</legend>
-
-
                 <label for="name">Imię:
                  <input type="text" id="name" name="name" placeholder="Jan" autofocus required>
                  </label><br>
-
                 <label for="telephone">Telefon:
                  <input type="tel" name="telephone" id="telephone" placeholder="601-102-203" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required >
                  </label><br>
-
                 <label for="email">Email:
                  <input type="email" id="email" name="email" placeholder="aaaa@bb.ccc" required>
                  </label><br>
-
             </fieldset>
-
             <fieldset class="book">
                 <legend>Książka</legend>
-
                 <select name="books" id="books" size="1" multiple="multiple">
                     <option value="Pan_Tadeusz">Pan Tadeusz</option>
                     <option value="Potop">Potop</option>
@@ -42,20 +33,13 @@
                     <option value="Dywizjon_303">Dywizjon 303</option>
                     <option value="Dziady">Dziady</option>
                 </select>
-
-
                 <label for="quantity">Ilość(max 5szt):
                      <input type="number" name="quantity" id="quantity" min="1" max="5">
                      </label>
-
-
-
             </fieldset>
             <input type="submit" value="Wyślij" id="submit">
         </form>
     </div>
-
-
 </body>
 
 </html>
