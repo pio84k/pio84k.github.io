@@ -1,0 +1,60 @@
+.container {
+    width: 1600px;
+    height: 900px;
+    background-color: #98fb98;
+}
+
+.box {
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+    top: 200px;
+    position: relative;
+    background-size: 170% 100%;
+    background-position: 50% 50%;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    background-color: #ff6f00;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.box:hover .mask {
+    opacity: 0.5;
+}
+
+a {
+    position: absolute;
+    font-size: 100px;
+    left: 120px;
+    top: 120px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.box:hover a {
+    color: #fff;
+    opacity: 1;
+}
+
+.product-1 {
+    background-image: url(../img/product-1.jpg);
+}
+
+.product-2 {
+    background-image: url(../img/product-2.jpg);
+}
+
+.product-3 {
+    background-image: url(../img/product-3.jpg);
+}
+
+.product-4 {
+    background-image: url(../img/product-4.jpg);
+}
+
+a
