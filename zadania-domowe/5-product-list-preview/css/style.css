@@ -1,15 +1,21 @@
+body {
+    margin: 0;
+}
+
 .container {
-    width: 1600px;
-    height: 900px;
+    width: 100%;
+    height: 800px;
     background-color: #98fb98;
+    text-align: center;
+
 }
 
 .box {
     display: inline-block;
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     margin: 20px;
-    top: 200px;
+    top: 20%;
     position: relative;
     background-size: 170% 100%;
     background-position: 50% 50%;
@@ -56,5 +62,3 @@ a {
 .product-4 {
     background-image: url(../img/product-4.jpg);
 }
-
-a

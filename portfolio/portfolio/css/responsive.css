@@ -1,0 +1,69 @@
+@media all and (max-width: 1170px) {
+    #portfolio .portfolio-item {
+        width: 50%;
+    }
+    #portfolio .portfolio-item:last-child {
+        width: 100%;
+    }
+}
+
+@media all and (max-width:992px) {
+    #contact .contact-data {
+        width: 100%;
+    }
+    #main-nav ul {
+        display: none;
+    }
+
+
+
+    #main-nav .toggle {
+        display: block;
+        background-color: #fff;
+        padding: 0 20px;
+        color: #1ac056;
+        font-size: 20px;
+        line-height: 60px;
+        text-decoration: none;
+        border: none;
+        text-align: right;
+
+
+    }
+    #main-nav #drop:checked + ul {
+        display: block;
+    }
+    #main-nav ul li {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        text-align: right;
+    }
+    #main-header .main-header-content {
+        padding: 10%;
+    }
+    #about figure {
+        width: 100%;
+    }
+    .about {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .main-header-content h1 {
+        font-size: 4em;
+    }
+
+    .main-header-content h2 {
+        font-size: 3.5vw;
+    }
+
+}
+
+@media all and (max-width: 480px) {
+    section,
+    #contact {
+        padding: 0 15px 60px;
+    }
+}

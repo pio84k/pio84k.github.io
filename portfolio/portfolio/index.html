@@ -18,6 +18,9 @@
 
 <body>
     <nav id="main-nav">
+        <label for="drop" class="toggle">Menu</label>
+        <input type="checkbox" id="drop">
+
         <ul>
             <li><a href="#about">o mnie</a></li>
             <li><a href="#skills">umiejętności</a></li>
@@ -31,7 +34,6 @@
 
             <h1>Piotr <span>Kusiak</span></h1>
             <h2>Front-End Developer</h2>
-
         </div>
     </header>
 
@@ -71,30 +73,83 @@
             </figure>
         </div>
     </section>
+
+    <section id="portfolio">
+        <h1>Moje <span>portfolio</span></h1>
+        <div id="portfolio-item-1" class="portfolio-item">
+            <div class="portfolio-item-mask">
+                <div class="portfolio-content">
+                    <div class="portfolio-content-inner"></div>
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque earum doloribus sapiente labore distinctio dolores laudantium facere reprehenderit debitis obcaecati, ullam, ex eum ipsam error.</p>
+                    <h4>Technologie</h4>
+                    <p>HTML, CSS, JavaScript</p>
+                    <a href=""><i class="fa fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="portfolio-item-2" class="portfolio-item">
+            <div class="portfolio-item-mask">
+                <div class="portfolio-content">
+                    <div class="portfolio-content-inner"></div>
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque earum doloribus sapiente labore distinctio dolores laudantium facere reprehenderit debitis obcaecati, ullam, ex eum ipsam error.</p>
+                    <h4>Technologie</h4>
+                    <p>HTML, CSS, JavaScript</p>
+                    <a href=""><i class="fa fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio-item-3" class="portfolio-item">
+            <div class="portfolio-item-mask">
+                <div class="portfolio-content">
+                    <div class="portfolio-content-inner"></div>
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque earum doloribus sapiente labore distinctio dolores laudantium facere reprehenderit debitis obcaecati, ullam, ex eum ipsam error.</p>
+                    <h4>Technologie</h4>
+                    <p>HTML, CSS, JavaScript</p>
+                    <a href=""><i class="fa fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
     <section id="contact">
         <div class="contact-data">
             <h2>Piotr <span>Kusiak</span></h2>
-            <adress>Pustola 30a/12<br>01-107 Warszawa<br> Tel: 793146793<br>Email: <a href="pio84k@wp.pl">pio84k@wp.pl</a><br></adress>
+            <adress>
+                <div class="address-data">Pustola 30a/12<br> 01-107 Warszawa</div>
+                <div class="address-data">
+                    Tel: 793146793 <br>
+                    <a href="mailto:pio84k@wp.pl">pio84k@wp.pl</a>
+                </div>
+            </adress>
 
             <div class="contact-social-icons">
 
-                <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                <i class="fa fa-google-plus-square" aria-hidden="true"></i>
-                <i class="fa fa-twitter-square" aria-hidden="true"></i>
-                <i class="fa fa-yahoo" aria-hidden="true"></i>
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <a href="https://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://google.com"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                <a href="https://tweeter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://yahoo.com"><i class="fa fa-yahoo" aria-hidden="true"></i></a>
+                <a href="https://linkedin.com"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 
             </div>
         </div>
+
         <div class="contact-form">
             <form action="">
                 <input type="text" id="name" placeholder="Imię i nazwisko">
                 <input type="email" id="email" placeholder="E-mail">
                 <textarea name="message" id="message" placeholder="Wiadomość"></textarea>
-                <button type="submit">Wyślij</button>
+                <input type="submit" value="Wyślij">
+
             </form>
         </div>
+
     </section>
+    <div class="footer">Copyright&copy; Piotr Kusiak</div>
+
 
 </body>
 
