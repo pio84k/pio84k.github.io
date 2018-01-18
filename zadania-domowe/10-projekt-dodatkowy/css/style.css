@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #ad68ec;
+    width: 100%;
+    height: auto;
+    padding: 0 0 50px;
+}
+
+#nav-header {
+    text-align: center;
+    color: white;
+    padding: 70px 0;
+}
+
+#menu > ul {
+    float: right;
+}
+
+#menu > ul > li {
+    display: inline-block;
+    float: left;
+    padding: 10px;
+
+}
+
+.button > a {
+    color: white;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.button {
+    width: 100%;
+    padding: 5px 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #4d2873;
+}
+
+.button-1 {
+
+    color: white;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: orangered;
+    margin: 0px auto;
+    text-transform: uppercase;
+    padding: 25px 0 0;
+    margin-bottom: 100px;
+}
+
+.button-1:hover {
+    background-color: #8d2701;
+}
+
+#content {
+    width: 100%;
+    background-color: #e6e6e6;
+    padding: 70px 0;
+}
+
+#content-header {
+    width: 100%;
+    text-align: center;
+    color: #403939;
+    margin-bottom: 70px;
+
+}
+
+#cont-head-1 {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+hr {
+    width: 70px;
+    height: 3px;
+    background-color: #b9b9b9;
+    border: 0;
+    margin: 10px auto;
+}
+
+#all-content-boxes {
+    display: block;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.content-box {
+    width: 250px;
+    text-align: center;
+    color: #403939;
+    float: left;
+}
+
+.picture-circle {
+    width: 220px;
+    height: 220px;
+    border-radius: 110px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+#content-box-1 .picture-circle {
+    background-image: url(../img/anne-hathaway.jpg);
+}
+
+#content-box-2 .picture-circle {
+    background-image: url(../img/kate-upton.jpg);
+}
+
+#content-box-3 .picture-circle {
+    background-image: url(../img/olivia-wilde.jpg);
+}
+
+#content-box-4 .picture-circle {
+    background-image: url(../img/ashley-greene.jpg);
+}
+
+.name {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.profession {
+    color: #36bab0;
+    padding: 10px 0;
+}
+
+.description {
+    width: 210px;
+    height: 180px;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.icon-circle {
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    position: relative;
+    display: block;
+    color: darkcyan;
+    background-color: #c2a8a8;
+    display: inline-block;
+    margin: 0 7px;
+}
+
+i.fa {
+    font-size: 15px;
+    transform: translate(0, 3px);
+    color: #e6e6e6
+}
+
+.icon-circle:hover {
+    background-color: #7b6a6a
+}
