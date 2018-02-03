@@ -63,6 +63,7 @@ header {
     text-transform: uppercase;
     padding: 25px 0 0;
     margin-bottom: 100px;
+    cursor: pointer;
 }
 
 .button-1:hover {
@@ -70,16 +71,14 @@ header {
 }
 
 #content {
-    width: 100%;
     background-color: #e6e6e6;
-    padding: 70px 0;
 }
 
 #content-header {
     width: 100%;
     text-align: center;
     color: #403939;
-    margin-bottom: 70px;
+    padding: 70px 0;
 
 }
 
@@ -100,6 +99,7 @@ hr {
     display: block;
     width: 1000px;
     margin: 0px auto;
+
 }
 
 .content-box {
@@ -107,6 +107,7 @@ hr {
     text-align: center;
     color: #403939;
     float: left;
+    margin-bottom: 70px;
 }
 
 .picture-circle {
@@ -151,7 +152,6 @@ hr {
     height: 180px;
     font-size: 14px;
     line-height: 1.5;
-    padding: 0 20px;
     margin-bottom: 20px;
 }
 
@@ -169,15 +169,21 @@ hr {
     color: darkcyan;
     background-color: #c2a8a8;
     display: inline-block;
-    margin: 0 7px;
+    margin: 0 5px;
 }
 
 i.fa {
     font-size: 15px;
-    transform: translate(0, 3px);
+    transform: translate(0, 4px);
     color: #e6e6e6
 }
 
 .icon-circle:hover {
     background-color: #7b6a6a
+}
+
+.skill-box {
+    width: 250px;
+    position: relative;
+
 }
