@@ -1,0 +1,35 @@
+@import "variables";
+@import "mixins";
+
+
+#form-container {
+    background-image: url(../img/background.png);
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    .form-section-right {
+        @include right-col-elements;
+        top: 25%;
+    }
+    #main-form {
+        background-color: $main-color;
+        fieldset {
+            border-style: none;
+            input:not([type="submit"]),
+            textarea {
+                margin-bottom: 10px;
+                font-family: $main-font;
+                @include inputs;
+            }
+            input[type="submit"] {
+                @include inputs-submit;
+                &:hover {
+                    background-color: #fff;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+}

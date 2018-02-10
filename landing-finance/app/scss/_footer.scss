@@ -1,0 +1,31 @@
+footer {
+    background-color: $grey-color;
+    padding: 50px 0;
+    color: #fff;
+    .phone-footer {
+        margin-bottom: 30px;
+        text-align: center;
+        .fa {
+            background-color: #f4b939;
+            color: #000;
+            height: 50px;
+            width: 50px;
+            font-size: 25px;
+            text-align: center;
+            line-height: 50px;
+            display: block;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+        &.col-1-2 {
+            width: 50px;
+            float: left;
+        }
+
+    }
+    p {
+        text-align: center;
+        font-size: 1em;
+    }
+
+}

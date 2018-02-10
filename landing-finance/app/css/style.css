@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: #001d8a;
+  font-family: "Open Sans", sans-serif;
+  margin: 0; }
+
+header,
+section {
+  width: 100%; }
+
+header {
+  position: absolute;
+  color: #fff;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  padding: 20px 0; }
+  header #main-logo {
+    display: inline-block;
+    float: left; }
+    header #main-logo h1 {
+      display: inline-block;
+      margin: 0; }
+    header #main-logo .fa {
+      font-size: 2em;
+      float: left;
+      margin-right: 10px;
+      color: #ecd407;
+      line-height: 45px; }
+  header .header-contact {
+    display: inline-block;
+    float: right;
+    width: 300px; }
+    header .header-contact .fa {
+      font-size: 2em;
+      float: left;
+      margin-right: 10px;
+      line-height: 45px; }
+    header .header-contact .section {
+      display: block; }
+      header .header-contact .section.call {
+        font-size: 0.8em; }
+      header .header-contact .section.phone {
+        font-size: 1.2em; }
+
+#form-container {
+  background-image: url(../img/background.png);
+  background-position: top;
+  background-size: cover;
+  height: 100vh;
+  color: #fff; }
+  #form-container .form-section-right {
+    position: absolute;
+    right: 8%;
+    width: 370px;
+    top: 25%; }
+  #form-container #main-form {
+    background-color: #001d8a; }
+    #form-container #main-form fieldset {
+      border-style: none; }
+      #form-container #main-form fieldset input:not([type="submit"]),
+      #form-container #main-form fieldset textarea {
+        margin-bottom: 10px;
+        font-family: "Open Sans", sans-serif;
+        width: 100%;
+        padding: 10px; }
+      #form-container #main-form fieldset input[type="submit"] {
+        padding: 20px;
+        background-color: #ecd407;
+        font-size: 1.2em;
+        font-weight: 700;
+        border: 0px solid #fff; }
+        #form-container #main-form fieldset input[type="submit"]:hover {
+          background-color: #fff;
+          cursor: pointer; }
+
+footer {
+  background-color: #292929;
+  padding: 50px 0;
+  color: #fff; }
+  footer .phone-footer {
+    margin-bottom: 30px;
+    text-align: center; }
+    footer .phone-footer .fa {
+      background-color: #f4b939;
+      color: #000;
+      height: 50px;
+      width: 50px;
+      font-size: 25px;
+      text-align: center;
+      line-height: 50px;
+      display: block;
+      margin: auto;
+      margin-bottom: 10px; }
+    footer .phone-footer.col-1-2 {
+      width: 50px;
+      float: left; }
+  footer p {
+    text-align: center;
+    font-size: 1em; }
