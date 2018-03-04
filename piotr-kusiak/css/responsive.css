@@ -1,0 +1,8 @@
+@media (max-width: 992px) {
+  .navbar {
+    background-color: rgba(212, 202, 202, 0.6);
+  }
+  .navbar-light .navbar-nav .nav-link,
+  .navbar-light .navbar-brand {
+    color: #0ed8d6;
+  }
