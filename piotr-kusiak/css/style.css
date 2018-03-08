@@ -29,14 +29,18 @@ h6 {
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar-light .navbar-brand:hover {
-  color: #114d4c;
+  color: #656262;
 }
 
 .scroll {
-  background-color: rgba(14, 216, 214, 0.7);
-  color: #114d4c;
+  background-color: rgba(14, 216, 214, 0.5);
   transition: all .4s;
 
+}
+
+.scroll .navbar-nav .nav-link:hover,
+.scroll .navbar-brand:hover {
+  color: #333333;
 }
 
 .header-h {
@@ -66,14 +70,27 @@ h3 {
 }
 
 .section-header h2 {
-  padding-top: 60px;
+  padding-top: 80px;
+}
+
+.section-header p {
+  font-family: 'Droid Serif', sans-serif;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #projects {
   border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
   background-color: #101a1a;
   color: #d4caca;
   text-align: center;
+}
+
+.projects-item figcaption p {
+  font-family: 'Droid Serif', sans-serif;
+  font-size: 18px;
 }
 
 
@@ -124,4 +141,17 @@ h3 {
 .projects-image-holder:hover .projects-mask {
   opacity: 1;
 
+}
+
+#technologies {
+  color: #d4caca;
+}
+
+svg {
+  width: 100px;
+  height: 100px;
+}
+
+#technologies .tech-row {
+  padding-top: 15vh;
 }
