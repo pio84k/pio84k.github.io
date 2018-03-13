@@ -43,6 +43,15 @@ h6 {
   color: #333333;
 }
 
+.progressbar {
+  height: 10px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  background-color: rgba(14, 216, 214, 0.8)
+}
+
 .header-h {
   color: #d4caca;
   font-family: 'Montserrat', sans-serif;

@@ -16,3 +16,9 @@ $(window).scroll(function () {
   })
 
 });
+
+/* scrollReval() method shows technologies svg items*/
+window.sr = ScrollReveal();
+sr.reveal('.box', {
+  duration: 1000
+}, 300);
