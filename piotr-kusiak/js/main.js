@@ -1,3 +1,12 @@
+$('a[href*="http"]').click(function (e) {
+  e.preventDefault();
+  var url = $(this).attr('href');
+
+  $('body').fadeOut(2000, function () {
+    window.location.href = url;
+  });
+});
+
 $(window).scroll(function () {
 
   var scrollTop = $(this).scrollTop();
@@ -17,8 +26,15 @@ $(window).scroll(function () {
 
 });
 
-/* scrollReval() method shows technologies svg items*/
+/* scrollReveal() method shows technologies svg items*/
 window.sr = ScrollReveal();
 sr.reveal('.box', {
-  duration: 1000
+  duration: 900
 }, 300);
+
+$('a[href*="#"]').click(function () {
+  var anchor = $(this).attr('href');
+  $('html, body').animate({
+    scrollTop: $(anchor).offset().top
+  }, 800);
+});

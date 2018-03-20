@@ -1,6 +1,38 @@
-@media (max-width: 992px) {
+@media only screen and (max-width: 992px) {
   .navbar-light .navbar-nav .nav-link,
   .navbar-light .navbar-brand {
     color: #0ed8d6;
   }
+
+  .social-icons {
+    margin-bottom: 20px;
+  }
+  #about img {
+    width: 30vw;
+  }
+  #technologies .tech-row {
+    padding: 10vh 0 20vh 0;
+    line-height: 80px;
+  }
+
+}
+
+@media only screen and(max-width: 768px) {
+  button {
+    color: #0ed8d6;
+  }
+  .art img {
+    margin: 0 auto;
+  }
+  .icons .social-icons {
+    margin-bottom: 20px;
+  }
+  #technologies .parallax {
+    width: 100vw;
+    height: auto;
+  }
+}
+
+@media only screen and(max-width: 576px) {
+  .projects-image-holder {}
 }

@@ -1,55 +1,39 @@
-$('a[href*="http"]').click(function(e){
-	e.preventDefault();
-	var url = $(this).attr('href');
-	
-	$('body').fadeOut(5000, function(){
-		window.location.href = url;
-	});
+$('a[href*="http"]').click(function (e) {
+  e.preventDefault();
+  var url = $(this).attr('href');
+
+  $('body').fadeOut(5000, function () {
+    window.location.href = url;
+  });
 });
 
 
 
-$(window).scroll(function() {
-	
-	var scrollTop = $(this).scrollTop();
-	
-	/* Menu change color */
-	if( scrollTop > 70 ) {
-		$('.navbar').addClass('scroll');
-	} else {
-		$('.navbar').removeClass('scroll');
-	}
-	
-	/* Progress  bar*/
-	var percent = (scrollTop*100)/($('body').height()- $(this).height());
-	$('.progressbar').css({width: (percent + '%')})
-	 
+$(window).scroll(function () {
+
+  var scrollTop = $(this).scrollTop();
+
+  /* Menu change color */
+  if (scrollTop > 70) {
+    $('.navbar').addClass('scroll');
+  } else {
+    $('.navbar').removeClass('scroll');
+  }
+
+  /* Progress  bar*/
+  var percent = (scrollTop * 100) / ($('body').height() - $(this).height());
+  $('.progressbar').css({
+    width: (percent + '%')
+  })
+
 });
 
-$('a[href*="#"]').click(function() {
-	var anchor = $(this).attr('href');
-    $('html, body').animate({
-        scrollTop: $(anchor).offset().top - 74
-    }, 800);
+$('a[href*="#"]').click(function () {
+  var anchor = $(this).attr('href');
+  $('html, body').animate({
+    scrollTop: $(anchor).offset().top - 74
+  }, 800);
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -76,20 +60,6 @@ $('a[href*="#"]').click(function() {
 
 
 
+$(window).on('scroll', function () {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-$(window).on('scroll', function(){
-	
 })
